@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    background: #eee;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(0, 17, 255);
+    background-color: rgb(251, 255, 0);
+    position: fixed;
+}
+
+#over {
+    position: fixed;
+    width: 1000px;
+    height: 100%;
+    padding-top: 20px;
+    top: 0;
+    margin-left: calc((100% - 1000px) / 2);
+    box-sizing: border-box;
+}
+
+#over1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* 子要素をflexboxで揃える */
+    justify-content: center;
+    /* 子要素をflexboxにより中央に配置する */
+    align-items: center;
+    /* 子要素をflexboxにより中央に配置する */
+    box-sizing: border-box;
+}
+
+#over2 {
+    margin-top: 25px;
+    width: 1000px;
+    height: 700px;
+    /* 子要素をflexboxで揃える */
+    justify-content: center;
+    /* 子要素をflexboxにより中央に配置する */
+    align-items: center;
+    /* 子要素をflexboxにより中央に配置する */
+    background-color: black;
+    box-sizing: border-box;
+    /* display: flex; */
+}
+
+#over3 {
+    width: 1000px;
+    height: 630px;
+    display: flex;
+    /* 子要素をflexboxで揃える */
+    justify-content: center;
+    /* 子要素をflexboxにより中央に配置する */
+    align-items: center;
+    /* 子要素をflexboxにより中央に配置する */
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#sck {
+    margin-top: 40px;
+    background-color: #fff100;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(36, 39, 216);
+    position: fixed;
+}
+
+#maindiv {
+    width: 1000px;
+    height: 630px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#start1 {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+#start {
+    margin-top: 25px;
+    margin-left: 250px;
+}
