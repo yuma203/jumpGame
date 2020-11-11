@@ -1,5 +1,3 @@
-
-//ランキング
 const STORAGE_KEY = "jumpGameScoreArray";
 let arrRanking = [0, 0, 0, 0, 0];
 $("#ranking").css(
